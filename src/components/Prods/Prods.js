@@ -7,7 +7,7 @@ const Prods = () => {
       <ProdsSummary />
       <AvailableProds />
     </>
-  )
+  );
 };
 
 export default Prods;

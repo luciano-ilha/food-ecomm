@@ -1,4 +1,5 @@
-import classes from './AvailableProds.module.css'
+import Card from '../UI/Card';
+import classes from './AvailableProds.module.css';
 
 const DUMMY_PRODS = [
   {
@@ -31,10 +32,12 @@ const AvailableProds = () => {
   const prodsList = DUMMY_PRODS.map(prod => <li>{prod.name}</li>);
 
   return (
-  <section className={classes.prods}>
-    <ul>{prodsList}</ul>
-  </section>
-  )
+    <section className={classes.prods}>
+      <Card>
+        <ul>{prodsList}</ul>
+      </Card>
+    </section>
+  );
 };
 
 export default AvailableProds;
