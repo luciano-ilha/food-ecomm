@@ -1,5 +1,5 @@
 <div align="center">
- <a href="https://github.com/luciano-ilha/food-ecomm">
+ <a href="https://beesmart-food-ecomm.netlify.app/">
   <img src="https://img.shields.io/badge/See-live-brightgreen?style=for-the-badge" alt="See live icon">
  </a>
  <a href="https://github.com/luciano-ilha/food-ecomm/issues">
@@ -28,7 +28,7 @@
     <a href="https://github.com/luciano-ilha/food-ecomm"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/luciano-ilha/food-ecomm">View Demo</a>
+    <a href="https://beesmart-food-ecomm.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/luciano-ilha/food-ecomm/issues">Report Bug</a>
     ·
@@ -75,7 +75,7 @@ A restaurant ecomm page.
 
 ### 🔭 Live Demo
 
-<a href="https://github.com/luciano-ilha/food-ecomm">
+<a href="https://beesmart-food-ecomm.netlify.app/">
  <img src="https://img.shields.io/badge/See-live-brightgreen?style=for-the-badge" alt="See live icon">
 </a>
 
