@@ -4,8 +4,10 @@ import classes from './ProdItemForm.module.css'
 const ProdItemForm = props => {
   return (
     <form className={classes.form}>
-      <Input label="Amount" input={{
-        id: 'Amount',
+      <Input
+        label="Amount"
+        input={{
+        id: `amount_${props.id}`,
         type: 'number',
         min: '1',
         max: '5',
