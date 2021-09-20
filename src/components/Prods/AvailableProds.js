@@ -1,5 +1,6 @@
 import Card from '../UI/Card';
 import classes from './AvailableProds.module.css';
+import ProdItem from './ProdItem/ProdItem';
 
 const DUMMY_PRODS = [
   {
@@ -29,7 +30,14 @@ const DUMMY_PRODS = [
 ];
 
 const AvailableProds = () => {
-  const prodsList = DUMMY_PRODS.map(prod => <li>{prod.name}</li>);
+  const prodsList = DUMMY_PRODS.map((prod) => (
+    <ProdItem
+      key={prod.id}
+      name={prod.name}
+      description={prod.description}
+      price={prod.price}
+    />
+  ));
 
   return (
     <section className={classes.prods}>
