@@ -17,7 +17,7 @@
 <br />
 <p align="center">
   <a href="">
-    <img src="" alt="Screenshot">
+    <img src="./src/assets/food-ecomm-scshot.png" alt="Screenshot">
   </a>
 
   <h1 align="center">Food Ecomm</h1>
