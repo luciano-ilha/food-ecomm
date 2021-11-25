@@ -5,6 +5,7 @@ import ProdItem from './ProdItem/ProdItem';
 
 const AvailableProds = () => {
   const [products, setProducts] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -23,10 +24,19 @@ const AvailableProds = () => {
       };
 
       setProducts(loadedProducts);
+      setIsLoading(false);
     };
 
     fetchProducts();
   }, []);
+
+  if (isLoading) {
+    return (
+      <section className={classes.ProductsLoading}>
+        <p>Loading...</p>
+     </section> 
+    );
+  }
 
   const prodsList = products.map((prod) => (
     <ProdItem
